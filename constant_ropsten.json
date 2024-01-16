@@ -1,0 +1,10 @@
+{
+  "gasPrice": "5",
+  "gasLimit": "500000",
+  "trasferFee": "0.002",
+  "tokenFee" : "0.004",
+  "swapFee": "0.01",
+  "minForTrade" : "0.01",
+  "decimals" : "1000000000000000000"
+}
+

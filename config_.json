@@ -1,0 +1,69 @@
+{
+  "provider" : "https://ropsten.infura.io/v3/8827667c483640e699955a604e6280e4",
+  "provider_bsc": "https://bsc-dataseed.binance.org",
+  "provider_poly" : "https://polygon-rpc.com",
+  "provider_ropsten" : "https://ropsten.infura.io/v3/8827667c483640e699955a604e6280e4",
+  "provider_kovan" : "https://kovan.infura.io/v3/8827667c483640e699955a604e6280e4",
+  
+  "router": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+  "ApeRouter" : "0xcF0feBd3f17CEf5b47b0cD257aCf6025c5BFf3b7",
+  "UniswapRouter" : "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+  "PancakeRouter" : "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+  
+  "tokenName" : "Weenus",
+  "tokenAddress" : "0x101848D5C5bBca18E6b4431eEdF6B95E9ADF82FA",
+  "weenus_kovan":"0xaFF4481D10270F50f203E0763e2597776068CBc5",
+  "weenus_ropsten":"0x101848D5C5bBca18E6b4431eEdF6B95E9ADF82FA",
+
+  "wbnb" : "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+  "eth_ropsten": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+  "wbnb_bsc": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+  "eth_kovan" : "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
+  
+  "host" : "localhost",
+  "user" : "root",
+  "password" : "",
+  "database" : "marketmaking",
+
+  "debug" : true,
+  "run_again" : true,
+
+  "isCreate" : true,
+  "numAccounts" : 3,
+
+  "treasuryWallet" : "0x337665B2e23f9eE9886159dbEC5B51251C5c4b4e",
+  "treasuryKey" : "33cca8b92d8ede2c0356d0f89741376b3140c08db48b793aefbd29bae1aef266",
+
+  "isSend" : true,
+  "numTargetWallets" :"3",
+  "transAmounts" : "0.2",
+  "transfer_noise" : 10,
+
+  "isMaketMaking" : true,
+  
+  "Nwallets" : 3,
+  
+  "noiseMin" : 5, 
+  "noiseMax" : 10,
+  
+  "isPreparation" : true,
+  "Preparation" : 20,
+  "preparation_time" : 180,
+
+  "Volume_goal" : 0.3,
+  "time_goal" : 360,
+
+  "is_change_price_floor" : false,
+  "buy_amount" : 10,
+  "sell_amount" : 10,
+  "buy_param" : 10,
+  "sell_param" : 10, 
+  "change_time_goal" :2,
+  
+  "isTreasury" : true,
+  "sell_coin_before_resend" : true,
+  "time_sellout" : 1,
+
+  "isStatistics" : true
+}
+
